@@ -21,13 +21,11 @@ import com.gamalocus.sgs.adminclient.messages.CallMethodOnManagedObjectAdminMess
 import com.gamalocus.sgs.adminclient.messages.ReturnValueContainer;
 import com.gamalocus.sgs.adminclient.serialization.AdminClientAssembler;
 import com.gamalocus.sgs.adminclient.serialization.ManagedReferenceImpl;
-import com.sun.sgs.app.AppContext;
 import com.sun.sgs.client.ClientChannel;
 import com.sun.sgs.client.ClientChannelListener;
 import com.sun.sgs.client.simple.SimpleClient;
 import com.sun.sgs.client.simple.SimpleClientListener;
 import com.sun.sgs.impl.kernel.AdminClientKernelContext;
-import com.sun.sgs.impl.kernel.ContextResolver;
 
 /**
  * Admin client side of the admin client-server connection.

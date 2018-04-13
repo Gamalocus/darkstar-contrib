@@ -1,0 +1,22 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                      http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>com.gamalocus.darkstar-contrib</groupId>
+  <artifactId>darkstar-profiler</artifactId>
+  <name>Project Darkstar Profiler</name>
+  <packaging>pom</packaging>
+  <version>0.0.1-SNAPSHOT</version>
+
+  <modules>
+    <module>darkstar-adminclient</module>
+    <module>darkstar-datastructures</module>
+    <module>darkstar-integration-test</module>
+    <module>darkstar-rpc</module>
+    <module>darkstar-rpc-example</module>
+    <module>darkstar-service-datainspector</module>
+    <module>darkstar-service-hotbackup</module>
+  </modules>
+</project>
